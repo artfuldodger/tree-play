@@ -8,16 +8,12 @@ class Node < ActiveRecord::Base
   end
 
   def rank
-    [level, ancestors_weight, position]
+    [level, ancestor_positions, position].flatten
   end
 
-  def weight
-    Math.exp(level) * position
-  end
+  def ancestor_positions
+    return [] unless parent.present?
 
-  def ancestors_weight
-    return 0 unless parent.present?
-
-    parent.weight + parent.ancestors_weight
+    parent.ancestor_positions + [parent.position]
   end
 end
