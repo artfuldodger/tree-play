@@ -14,16 +14,67 @@ class Seeds
             name: 'D',
             level: 2,
             position: 0,
+            children: [
+              {
+                name: 'M',
+                level: 3,
+                position: 0
+              },
+              {
+                name: 'N',
+                level: 3,
+                position: 1
+              },
+              {
+                name: 'O',
+                level: 3,
+                position: 2
+              }
+            ]
           },
           {
             name: 'E',
             level: 2,
             position: 1,
+            children: [
+              {
+                name: 'P',
+                level: 3,
+                position: 0
+              },
+              {
+                name: 'Q',
+                level: 3,
+                position: 1
+              },
+              {
+                name: 'R',
+                level: 3,
+                position: 2
+              }
+            ]
           },
           {
             name: 'F',
             level: 2,
             position: 2,
+            children: [
+              {
+                name: 'S',
+                level: 3,
+                position: 0
+              },
+              {
+                name: 'T',
+                level: 3,
+                position: 1
+              },
+              {
+                name: 'U',
+                level: 3,
+                position: 2
+              }
+            ]
           }
         ]
       },
@@ -36,6 +87,23 @@ class Seeds
             name: 'G',
             level: 2,
             position: 0,
+            children: [
+              {
+                name: 'V',
+                level: 3,
+                position: 0
+              },
+              {
+                name: 'W',
+                level: 3,
+                position: 1
+              },
+              {
+                name: 'X',
+                level: 3,
+                position: 2
+              }
+            ]
           },
           {
             name: 'H',

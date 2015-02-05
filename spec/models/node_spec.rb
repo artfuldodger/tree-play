@@ -21,6 +21,18 @@ describe Node do
         J
         K
         L
+        M
+        N
+        O
+        P
+        Q
+        R
+        S
+        T
+        U
+        V
+        W
+        X
       }
     end
   end
